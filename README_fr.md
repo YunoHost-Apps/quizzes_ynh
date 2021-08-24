@@ -15,7 +15,7 @@ Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des ré
 
 **Version incluse :** 1.3.0~ynh1
 
-**Démo :** https://demo.example.com
+
 
 ## Captures d'écran
 
@@ -39,8 +39,7 @@ Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des ré
 
 ## Documentations et ressources
 
-* Site officiel de l'app : https://example.com
-* Documentation officielle utilisateur : https://yunohost.org/apps
+* Site officiel de l'app : https://github.com/hipay/quizzes/
 * Documentation officielle de l'admin : https://yunohost.org/packaging_apps
 * Dépôt de code officiel de l'app : https://github.com/hipay/quizzes/
 * Documentation YunoHost pour cette app : https://yunohost.org/app_quizzes

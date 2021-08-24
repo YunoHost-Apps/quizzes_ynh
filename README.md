@@ -19,7 +19,7 @@ Multiple choice quiz platform with results analysis interface
 
 **Shipped version:** 1.3.0~ynh1
 
-**Demo:** https://demo.example.com
+
 
 ## Screenshots
 
@@ -43,8 +43,7 @@ Multiple choice quiz platform with results analysis interface
 
 ## Documentation and resources
 
-* Official app website: https://example.com
-* Official user documentation: https://yunohost.org/apps
+* Official app website: https://github.com/hipay/quizzes/
 * Official admin documentation: https://yunohost.org/packaging_apps
 * Upstream app code repository: https://github.com/hipay/quizzes/
 * YunoHost documentation for this app: https://yunohost.org/app_quizzes
