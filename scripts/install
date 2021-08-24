@@ -98,7 +98,7 @@ ynh_add_fpm_config
 #=================================================
 ynh_script_progression --message="Installing $app with Composer..." --weight=5
 
-ynh_install_composer --install_args="--ignore-platform-reqs"
+ynh_install_composer --install_args="--ignore-platform-reqs" 2>&1
 
 #=================================================
 # ADD A CONFIGURATION

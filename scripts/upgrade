@@ -61,7 +61,7 @@ then
 	ynh_setup_source --dest_dir="$final_path"
 fi
 
-ynh_install_composer --install_args="--ignore-platform-reqs"
+ynh_install_composer --install_args="--ignore-platform-reqs" 2>&1
 
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
