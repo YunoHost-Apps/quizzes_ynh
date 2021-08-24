@@ -10,10 +10,8 @@
     "url": "https://github.com/hipay/quizzes/",
     "upstream": {
         "license": "free",
-        "website": "https://example.com",
-        "demo": "https://demo.example.com",
+        "website": "https://github.com/hipay/quizzes/",
         "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/hipay/quizzes/"
     },
     "license": "free",
