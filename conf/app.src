@@ -1,0 +1,7 @@
+SOURCE_URL=https://github.com/hipay/quizzes/archive/refs/tags/v1.3.0.tar.gz
+SOURCE_SUM=885f91a81c3c1d5e652fd2a4e6d910680076e35258a3a13651bdf08700c85f3a
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
+SOURCE_EXTRACT=true
