@@ -26,6 +26,14 @@ Multiple choice quiz platform with results analysis interface
 ![](./doc/screenshots/.DS_Store)
 ![](./doc/screenshots/score_par_theme.png)
 
+## Disclaimers / important information
+
+First time credentials: 
+
+```
+Admin
+test
+```
 ## Documentation and resources
 
 * Official app website: https://github.com/hipay/quizzes/
