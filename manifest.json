@@ -11,7 +11,6 @@
     "upstream": {
         "license": "AGPL-3.0-only",
         "website": "https://github.com/hipay/quizzes/",
-        "admindoc": "https://yunohost.org/packaging_apps",
         "code": "https://github.com/hipay/quizzes/"
     },
     "license": "AGPL-3.0-only",
@@ -25,8 +24,7 @@
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.3-fpm",
-        "mysql"
+        "php7.3-fpm"
     ],
     "arguments": {
         "install" : [
