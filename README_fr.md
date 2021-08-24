@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)
+Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats
 
 **Version incluse :** 1.3.0~ynh1
 
@@ -19,7 +19,8 @@ Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'o
 
 ## Captures d'écran
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/.DS_Store)
+![](./doc/screenshots/score_par_theme.png)
 
 ## Avertissements / informations importantes
 

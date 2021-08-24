@@ -15,7 +15,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)
+Multiple choice quiz platform with results analysis interface
 
 **Shipped version:** 1.3.0~ynh1
 
@@ -23,7 +23,8 @@ Explain in *a few (10~15) words* the purpose of the app or what it actually does
 
 ## Screenshots
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/.DS_Store)
+![](./doc/screenshots/score_par_theme.png)
 
 ## Disclaimers / important information
 
