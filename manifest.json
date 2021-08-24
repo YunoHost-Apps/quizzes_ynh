@@ -9,12 +9,12 @@
     "version": "1.3.0~ynh1",
     "url": "https://github.com/hipay/quizzes/",
     "upstream": {
-        "license": "free",
+        "license": "AGPL-3.0-only",
         "website": "https://github.com/hipay/quizzes/",
         "admindoc": "https://yunohost.org/packaging_apps",
         "code": "https://github.com/hipay/quizzes/"
     },
-    "license": "free",
+    "license": "AGPL-3.0-only",
     "maintainer": {
         "name": "John doe",
         "email": "john.doe@example.com"
