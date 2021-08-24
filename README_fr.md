@@ -33,7 +33,6 @@ test
 ## Documentations et ressources
 
 * Site officiel de l'app : https://github.com/hipay/quizzes/
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
 * Dépôt de code officiel de l'app : https://github.com/hipay/quizzes/
 * Documentation YunoHost pour cette app : https://yunohost.org/app_quizzes
 * Signaler un bug : https://github.com/YunoHost-Apps/quizzes_ynh/issues
