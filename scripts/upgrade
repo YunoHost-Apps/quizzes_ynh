@@ -95,7 +95,7 @@ ynh_add_fpm_config
 #=================================================
 ynh_script_progression --message="Updating a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/qcm-dist.conf" --destination="$final_path/conf/qcm.php"
+ynh_add_config --template="../conf/qcm-dist.php" --destination="$final_path/conf/qcm.php"
 
 chmod 400 "$final_path/conf/qcm.php"
 chown $app:$app "$final_path/conf/qcm.php"
