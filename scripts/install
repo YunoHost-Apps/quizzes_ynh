@@ -14,7 +14,6 @@ source /usr/share/yunohost/helpers
 #=================================================
 
 ynh_clean_setup () {
-	### Remove this function if there's nothing to clean before calling the remove script.
 	true
 }
 # Exit if an error occurs during the execution of the script
@@ -94,6 +93,8 @@ ynh_script_progression --message="Configuring PHP-FPM..." --weight=2
 ynh_add_fpm_config
 
 #=================================================
+# SPECIFIC SETUP
+#=================================================
 # INSTALL LYCHEE WITH COMPOSER
 #=================================================
 ynh_script_progression --message="Installing $app with Composer..." --weight=5
@@ -112,7 +113,6 @@ chmod 400 "$final_path/conf/qcm.php"
 chown $app:$app "$final_path/conf/qcm.php"
 
 #=================================================
-# GENERIC FINALIZATION
 # HANDLE LOG FILES 
 #=================================================
 ynh_script_progression --message="Configuring log rotation..." --weight=1
@@ -122,6 +122,8 @@ mkdir -p /var/log/$app
 touch /var/log/$app/$app.log
 chown $app -R /var/log/$app
 
+#=================================================
+# GENERIC FINALIZATION
 #=================================================
 # SETUP LOGROTATE
 #=================================================
