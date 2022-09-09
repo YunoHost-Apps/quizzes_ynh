@@ -77,20 +77,20 @@ chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
 #=================================================
-# NGINX CONFIGURATION
-#=================================================
-ynh_script_progression --message="Configuring NGINX web server..." --weight=1
-
-# Create a dedicated NGINX config
-ynh_add_nginx_config
-
-#=================================================
 # PHP-FPM CONFIGURATION
 #=================================================
 ynh_script_progression --message="Configuring PHP-FPM..." --weight=2
 
 # Create a dedicated PHP-FPM config
 ynh_add_fpm_config
+
+#=================================================
+# NGINX CONFIGURATION
+#=================================================
+ynh_script_progression --message="Configuring NGINX web server..." --weight=1
+
+# Create a dedicated NGINX config
+ynh_add_nginx_config
 
 #=================================================
 # SPECIFIC SETUP
@@ -100,6 +100,10 @@ ynh_add_fpm_config
 ynh_script_progression --message="Installing $app with Composer..." --weight=5
 
 ynh_install_composer --install_args="--ignore-platform-reqs" 2>&1
+
+pushd $final_path
+	patch --strip=1 < $YNH_APP_BASEDIR/sources/app-array_key_exists.patch
+popd 
 
 #=================================================
 # ADD A CONFIGURATION
@@ -140,6 +144,8 @@ ynh_script_progression --message="Configuring permissions..." --weight=1
 # Make app public if necessary
 if [ $is_public -eq 1 ]
 then
+	# Everyone can access the app.
+	# The "main" permission is automatically created before the install script.
 	ynh_permission_update --permission="main" --add="visitors"
 fi
 

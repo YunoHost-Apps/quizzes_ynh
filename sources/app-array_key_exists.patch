@@ -1,0 +1,11 @@
+--- a/vendor/twig/twig/lib/Twig/Template.php	2022-09-05 02:54:39.800617851 +0200
++++ a/vendor/twig/twig/lib/Twig/Template.php	2022-09-05 03:54:48.000000000 +0200
+@@ -387,7 +387,7 @@
+ 
+         // object property
+         if (Twig_TemplateInterface::METHOD_CALL !== $type) {
+-            if (isset($object->$item) || array_key_exists((string) $item, $object)) {
++            if (isset($object->$item)) {
+                 if ($isDefinedTest) {
+                     return true;
+                 }
