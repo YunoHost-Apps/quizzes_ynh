@@ -10,7 +10,6 @@
     "url": "https://github.com/hipay/quizzes/",
     "upstream": {
         "license": "AGPL-3.0-only",
-        "website": "https://github.com/hipay/quizzes/",
         "code": "https://github.com/hipay/quizzes/"
     },
     "license": "AGPL-3.0-only",
@@ -19,7 +18,7 @@
         "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
