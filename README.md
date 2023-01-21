@@ -15,10 +15,10 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Multiple choice quiz platform with results analysis interface
+Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats.
 
-**Shipped version:** 1.3.0~ynh1
 
+**Shipped version:** 1.3.0~ynh2
 
 ## Screenshots
 
@@ -34,7 +34,6 @@ test
 ```
 ## Documentation and resources
 
-* Official app website: <https://github.com/hipay/quizzes/>
 * Upstream app code repository: <https://github.com/hipay/quizzes/>
 * YunoHost documentation for this app: <https://yunohost.org/app_quizzes>
 * Report a bug: <https://github.com/YunoHost-Apps/quizzes_ynh/issues>

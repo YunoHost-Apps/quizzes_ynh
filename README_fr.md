@@ -5,24 +5,24 @@ It shall NOT be edited by hand.
 
 # Quizzes pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/quizzes.svg)](https://dash.yunohost.org/appci/app/quizzes) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/quizzes.svg)](https://dash.yunohost.org/appci/app/quizzes) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)  
 [![Installer Quizzes avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=quizzes)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Quizzes rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Quizzes rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
-Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats
-
-**Version incluse :** 1.3.0~ynh1
+Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats.
 
 
-## Captures d'écran
+**Version incluse :** 1.3.0~ynh2
 
-![Capture d'écran de Quizzes](./doc/screenshots/score_par_theme.png)
+## Captures d’écran
+
+![Capture d’écran de Quizzes](./doc/screenshots/score_par_theme.png)
 
 ## Avertissements / informations importantes
 
@@ -34,8 +34,7 @@ test
 ```
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://github.com/hipay/quizzes/>
-* Dépôt de code officiel de l'app : <https://github.com/hipay/quizzes/>
+* Dépôt de code officiel de l’app : <https://github.com/hipay/quizzes/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_quizzes>
 * Signaler un bug : <https://github.com/YunoHost-Apps/quizzes_ynh/issues>
 
@@ -51,4 +50,4 @@ ou
 sudo yunohost app upgrade quizzes -u https://github.com/YunoHost-Apps/quizzes_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
