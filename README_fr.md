@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Quizzes pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/quizzes.svg)](https://dash.yunohost.org/appci/app/quizzes) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/quizzes.svg)](https://dash.yunohost.org/appci/app/quizzes) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
+
 [![Installer Quizzes avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=quizzes)
 
 *[Read this readme in english.](./README.md)*
@@ -35,7 +36,7 @@ test
 ## Documentations et ressources
 
 * Dépôt de code officiel de l’app : <https://github.com/hipay/quizzes/>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_quizzes>
+* YunoHost Store: <https://apps.yunohost.org/app/quizzes>
 * Signaler un bug : <https://github.com/YunoHost-Apps/quizzes_ynh/issues>
 
 ## Informations pour les développeurs
