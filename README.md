@@ -25,14 +25,6 @@ Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des ré
 
 ![Screenshot of Quizzes](./doc/screenshots/score_par_theme.png)
 
-## Disclaimers / important information
-
-First time credentials: 
-
-```
-Admin
-test
-```
 ## Documentation and resources
 
 * Upstream app code repository: <https://github.com/hipay/quizzes/>
