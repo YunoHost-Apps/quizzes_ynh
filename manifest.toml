@@ -16,11 +16,14 @@ license = "AGPL-3.0-only"
 code = "https://github.com/hipay/quizzes/"
 
 [integration]
-yunohost = ">= 11.0.9"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = "not_relevant"
+
 sso = "not_relevant"
+
 disk = "50M"
 ram.build = "80M"
 ram.runtime = "50M"
