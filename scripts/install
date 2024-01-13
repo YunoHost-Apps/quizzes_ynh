@@ -29,9 +29,9 @@ ynh_script_progression --message="Installing $app with Composer..." --weight=5
 
 ynh_install_composer --install_args="--ignore-platform-reqs" 2>&1
 
-# pushd "$install_dir"
-#     patch --strip=1 < "$YNH_APP_BASEDIR/sources/app-array_key_exists.patch"
-# popd
+pushd "$install_dir"
+    patch --strip=1 < "$YNH_APP_BASEDIR/sources/app-array_key_exists.patch"
+popd
 
 #=================================================
 # ADD A CONFIGURATION
