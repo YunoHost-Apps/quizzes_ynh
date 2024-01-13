@@ -48,4 +48,8 @@ ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requiremen
     main.url = "/"
 
     [resources.apt]
-    packages = ["mutt"]
+    packages = [
+        "mutt",
+        "php7.4-cli",
+        "php7.4-mbstring",
+    ]
