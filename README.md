@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Quizzes with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=quizzes)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Quizzes quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -19,7 +19,7 @@ It shall NOT be edited by hand.
 Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats.
 
 
-**Shipped version:** 1.3.0~ynh2
+**Shipped version:** 1.3.0~ynh3
 
 ## Screenshots
 
