@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Quizzes
+# YunoHost 上的 Quizzes
 
 [![集成程度](https://dash.yunohost.org/integration/quizzes.svg)](https://dash.yunohost.org/appci/app/quizzes) ![工作状态](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
 
