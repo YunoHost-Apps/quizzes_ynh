@@ -1,33 +1,22 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC START
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression --message="Setting up source files..." --weight=3
+ynh_script_progression "Setting up source files..."
 
-# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
+#=================================================
+# INSTALL WITH COMPOSER
+#=================================================
+ynh_script_progression "Installing $app with Composer..."
 
-#=================================================
-# SPECIFIC SETUP
-#=================================================
-# INSTALL LYCHEE WITH COMPOSER
-#=================================================
-ynh_script_progression --message="Installing $app with Composer..." --weight=5
-
-ynh_install_composer --install_args="--ignore-platform-reqs" 2>&1
+ynh_composer_install
+ynh_composer_exec install --no-dev  --ignore-platform-reqs 2>&1
 
 pushd "$install_dir"
     patch --strip=1 < "$YNH_APP_BASEDIR/sources/app-array_key_exists.patch"
@@ -36,11 +25,11 @@ popd
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding a configuration file..." --weight=1
+ynh_script_progression "Adding $app's configuration..."
 
 # Workaround because __DIR__ should not be replaced
 dir="__DIR__"
-ynh_add_config --template="../conf/qcm-dist.php" --destination="$install_dir/conf/qcm.php"
+ynh_config_add --template="qcm-dist.php" --destination="$install_dir/conf/qcm.php"
 
 chmod 400 "$install_dir/conf/qcm.php"
 chown "$app:$app" "$install_dir/conf/qcm.php"
@@ -48,19 +37,16 @@ chown "$app:$app" "$install_dir/conf/qcm.php"
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
+ynh_script_progression "Adding system configurations related to $app..."
 
-# Create a dedicated PHP-FPM config
-ynh_add_fpm_config
+ynh_config_add_phpfpm
 
-# Create a dedicated NGINX config
-ynh_add_nginx_config
+ynh_config_add_nginx
 
-# Use logrotate to manage application logfile(s)
-ynh_use_logrotate
+ynh_config_add_logrotate
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Installation of $app completed" --last
+ynh_script_progression "Installation of $app completed"
