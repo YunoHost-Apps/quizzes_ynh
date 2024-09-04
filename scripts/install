@@ -16,7 +16,7 @@ ynh_setup_source --dest_dir="$install_dir"
 ynh_script_progression "Installing $app with Composer..."
 
 ynh_composer_install
-ynh_composer_exec install --no-dev  --ignore-platform-reqs 2>&1
+ynh_composer_exec install --no-dev --ignore-platform-reqs 2>&1
 
 pushd "$install_dir"
     patch --strip=1 < "$YNH_APP_BASEDIR/sources/app-array_key_exists.patch"
