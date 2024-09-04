@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Quizzes para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/quizzes.svg)](https://dash.yunohost.org/appci/app/quizzes) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/quizzes.svg)](https://ci-apps.yunohost.org/ci/apps/quizzes/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
 
 [![Instalar Quizzes con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=quizzes)
 
@@ -19,7 +19,7 @@ No se debe editar a mano.
 Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats.
 
 
-**Versión actual:** 1.3.0~ynh3
+**Versión actual:** 1.3.0~ynh4
 
 ## Capturas
 

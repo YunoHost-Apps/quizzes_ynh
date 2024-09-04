@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Quizzes
 
-[![集成程度](https://dash.yunohost.org/integration/quizzes.svg)](https://dash.yunohost.org/appci/app/quizzes) ![工作状态](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/quizzes.svg)](https://ci-apps.yunohost.org/ci/apps/quizzes/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
 
 [![使用 YunoHost 安装 Quizzes](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=quizzes)
 
@@ -19,7 +19,7 @@
 Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats.
 
 
-**分发版本：** 1.3.0~ynh3
+**分发版本：** 1.3.0~ynh4
 
 ## 截图
 

@@ -7,7 +7,7 @@ name = "Quizzes"
 description.en = "Multiple choice quiz platform with results analysis interface"
 description.fr = "Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats"
 
-version = "1.3.0~ynh3"
+version = "1.3.0~ynh4"
 
 maintainers = []
 
@@ -16,7 +16,8 @@ license = "AGPL-3.0-only"
 code = "https://github.com/hipay/quizzes/"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.30"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
@@ -46,6 +47,7 @@ ram.runtime = "50M"
     [resources.system_user]
 
     [resources.install_dir]
+    group = "www-data:r-x"
 
     [resources.permissions]
     main.url = "/"

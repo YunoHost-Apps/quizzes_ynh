@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Quizzes YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/quizzes.svg)](https://dash.yunohost.org/appci/app/quizzes) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/quizzes.svg)](https://ci-apps.yunohost.org/ci/apps/quizzes/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
 
 [![Instalatu Quizzes YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=quizzes)
 
@@ -19,7 +19,7 @@ EZ editatu eskuz.
 Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats.
 
 
-**Paketatutako bertsioa:** 1.3.0~ynh3
+**Paketatutako bertsioa:** 1.3.0~ynh4
 
 ## Pantaila-argazkiak
 
