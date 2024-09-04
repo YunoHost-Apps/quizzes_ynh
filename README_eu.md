@@ -19,7 +19,7 @@ EZ editatu eskuz.
 Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats.
 
 
-**Paketatutako bertsioa:** 1.3.0~ynh3
+**Paketatutako bertsioa:** 1.3.0~ynh4
 
 ## Pantaila-argazkiak
 

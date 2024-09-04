@@ -19,7 +19,7 @@
 Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats.
 
 
-**Поставляемая версия:** 1.3.0~ynh3
+**Поставляемая версия:** 1.3.0~ynh4
 
 ## Снимки экрана
 

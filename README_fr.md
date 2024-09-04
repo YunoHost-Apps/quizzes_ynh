@@ -19,7 +19,7 @@ Il NE doit PAS être modifié à la main.
 Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats.
 
 
-**Version incluse :** 1.3.0~ynh3
+**Version incluse :** 1.3.0~ynh4
 
 ## Captures d’écran
 
