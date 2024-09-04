@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Quizzes for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/quizzes.svg)](https://dash.yunohost.org/appci/app/quizzes) ![Working status](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/quizzes.svg)](https://ci-apps.yunohost.org/ci/apps/quizzes/) ![Working status](https://ci-apps.yunohost.org/ci/badges/quizzes.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/quizzes.maintain.svg)
 
 [![Install Quizzes with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=quizzes)
 
