@@ -7,7 +7,7 @@ name = "Quizzes"
 description.en = "Multiple choice quiz platform with results analysis interface"
 description.fr = "Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats"
 
-version = "1.3.0~ynh4"
+version = "1.3.0~ynh5"
 
 maintainers = []
 
@@ -16,7 +16,7 @@ license = "AGPL-3.0-only"
 code = "https://github.com/hipay/quizzes/"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -55,6 +55,9 @@ ram.runtime = "50M"
     [resources.apt]
     packages = [
         "mutt",
-        "php7.4-cli",
-        "php7.4-mbstring",
+        "php8.4-cli",
+        "php8.4-mbstring",
     ]
+
+    [resources.composer]
+    version = "2.1.3"
