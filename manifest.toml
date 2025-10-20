@@ -7,7 +7,7 @@ name = "Quizzes"
 description.en = "Multiple choice quiz platform with results analysis interface"
 description.fr = "Plate-forme de quizzes à choix multiples (QCM) avec interface d'analyse des résultats"
 
-version = "1.3.0~ynh4"
+version = "1.3.0~ynh5"
 
 maintainers = []
 
@@ -55,8 +55,8 @@ ram.runtime = "50M"
     [resources.apt]
     packages = [
         "mutt",
-        "php7.4-cli",
-        "php7.4-mbstring",
+        "php8.4-cli",
+        "php8.4-mbstring",
     ]
 
     [resources.composer]
